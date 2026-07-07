@@ -1,3 +1,3 @@
 git add .
-git commit -m "Solved 01-SmallestElement"
+git commit -m "Solved 07-SumOfArray"
 git push
