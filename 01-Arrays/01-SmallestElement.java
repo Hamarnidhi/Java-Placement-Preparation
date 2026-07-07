@@ -7,11 +7,11 @@ class SmallestElement {
         {
             arr[i] = sc.nextInt();
         }
-        int min=Integer.MAX_VALUE;
+        int mini=Integer.MAX_VALUE;
         for(int i:arr){
-            min=Math.min(i,min);
+            mini=Math.min(i,mini);
         }
-        System.out.println(min);
+        System.out.println(mini);
         
     }
 }

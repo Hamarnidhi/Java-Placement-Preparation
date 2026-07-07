@@ -7,15 +7,12 @@ class LargestElement {
         {
             arr[i] = sc.nextInt();
         }
-        int max = arr[0];
-        for(int i=0;i<5;i++)
+        int maxi = Integer.MIN_VALUE;
+        for(int i:arr)
         {
-            if(arr[i] > max)
-            {
-                max = arr[i];
-            }
+            maxi = Math.max(i, maxi);
         }
-        System.out.print(max);
+        System.out.print(maxi);
         sc.close();
     }
 }
